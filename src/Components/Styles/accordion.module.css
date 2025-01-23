@@ -1,0 +1,55 @@
+/* Base styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100vw;
+  overflow-x: hidden;
+  margin-top: 10%;
+}
+
+.accordionCard {
+  background: rgb(0, 0, 0);
+  width: 70%;
+  padding: 20px;
+  margin: auto;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  width: 40rem;
+  cursor: pointer;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #1c1b1b;
+}
+
+.icon {
+  font-size: 1.5rem;
+}
+
+.cardInfo {
+  width: 30rem;
+  padding: 20px 0;
+  line-height: 1.3;
+}
+
+/* Content container for animation */
+.content {
+  max-height: 0; /* Start collapsed */
+  overflow: hidden;
+  transition: max-height 0.8s ease; /* Smooth transition */
+  text-align: justify;
+  text-wrap-style: pretty;
+}
+
+.content.active {
+  max-height: 500px; /* Set to a large enough value */
+}
+
+.ex {
+  background: #454242;
+}
