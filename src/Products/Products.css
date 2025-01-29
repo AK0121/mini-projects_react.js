@@ -1,0 +1,47 @@
+.cardContainer {
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: 20rem;
+  margin-top: 2rem;
+  z-index: -2;
+}
+
+.card {
+  margin: 20px;
+  border: 2px solid #ededed;
+  padding: 20px;
+  cursor: pointer;
+}
+
+.cardImg {
+  width: 13rem;
+  margin-bottom: 1rem;
+}
+
+.cardTitle {
+  margin-bottom: 1rem;
+}
+
+.cardReviews {
+  margin-bottom: 1rem;
+  display: flex;
+}
+
+.ratingStar {
+  color: #d5ab55;
+}
+
+.totalReviews {
+  font-size: 0.9rem;
+  margin-left: 10px;
+}
+
+.cardPrice {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.bagIcon {
+  color: #535353;
+}
